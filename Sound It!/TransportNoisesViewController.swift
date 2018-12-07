@@ -15,9 +15,7 @@ class TransportNoisesViewController: UITableViewController {
     @IBAction func barBackButtonPressed(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-    
     var noises = SomeData.generateTransportNoiseData() // retrieves data from class generateNoiseData from file SomeData
-
 }
 
 extension TransportNoisesViewController {
