@@ -35,6 +35,4 @@ class ViewController: UIViewController {
         self.present(nextViewController, animated:true, completion:nil)
     }
 
-
 }
-
