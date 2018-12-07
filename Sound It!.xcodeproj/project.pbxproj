@@ -7,14 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832C2DF721B9167E00528838 /* AnimalNoisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2DF621B9167E00528838 /* AnimalNoisesViewController.swift */; };
+		832C2DF921B917C400528838 /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2DF821B917C400528838 /* SomeData.swift */; };
+		832C2DFB21B917F700528838 /* AnimalNoisesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2DFA21B917F700528838 /* AnimalNoisesCell.swift */; };
+		832C2E3021B9560D00528838 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E2B21B9560D00528838 /* cat.wav */; };
+		832C2E3121B9560D00528838 /* bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E2C21B9560D00528838 /* bird.wav */; };
+		832C2E3221B9560D00528838 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E2D21B9560D00528838 /* dog.wav */; };
+		832C2E3321B9560D00528838 /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E2E21B9560D00528838 /* cow.wav */; };
+		832C2E3421B9560D00528838 /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E2F21B9560D00528838 /* chicken.wav */; };
+		832C2E3621B961F600528838 /* InstrumentNoisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2E3521B961F600528838 /* InstrumentNoisesViewController.swift */; };
+		832C2E3821B9621500528838 /* WeatherNoisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2E3721B9621500528838 /* WeatherNoisesViewController.swift */; };
+		832C2E3A21B9624B00528838 /* TransportNoisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2E3921B9624B00528838 /* TransportNoisesViewController.swift */; };
+		832C2E4021B9655F00528838 /* car.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E3B21B9655E00528838 /* car.wav */; };
+		832C2E4121B9655F00528838 /* wind.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E3C21B9655F00528838 /* wind.wav */; };
+		832C2E4221B9655F00528838 /* thunder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E3D21B9655F00528838 /* thunder.wav */; };
+		832C2E4321B9655F00528838 /* storm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E3E21B9655F00528838 /* storm.wav */; };
+		832C2E4421B9655F00528838 /* motorcycle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E3F21B9655F00528838 /* motorcycle.wav */; };
+		832C2E4721B96ACF00528838 /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4521B96ACF00528838 /* guitar.wav */; };
+		832C2E4821B96ACF00528838 /* piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4621B96ACF00528838 /* piano.wav */; };
+		832C2E4F21B96DEE00528838 /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4921B96DED00528838 /* duck.wav */; };
+		832C2E5021B96DEE00528838 /* pigeon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4A21B96DED00528838 /* pigeon.wav */; };
+		832C2E5121B96DEE00528838 /* monkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4B21B96DED00528838 /* monkey.wav */; };
+		832C2E5321B96DEE00528838 /* frogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4D21B96DED00528838 /* frogs.wav */; };
+		832C2E5421B96DEE00528838 /* trumpet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E4E21B96DEE00528838 /* trumpet.wav */; };
+		832C2E5621B96E7200528838 /* horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E5521B96E7200528838 /* horse.wav */; };
+		832C2E5821B96F1400528838 /* drum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 832C2E5721B96F1400528838 /* drum.wav */; };
 		8377AA3921B85AD5007F4E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377AA3821B85AD5007F4E7A /* AppDelegate.swift */; };
 		8377AA3B21B85AD5007F4E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377AA3A21B85AD5007F4E7A /* ViewController.swift */; };
 		8377AA3E21B85AD5007F4E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA3C21B85AD5007F4E7A /* Main.storyboard */; };
 		8377AA4021B85ADD007F4E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA3F21B85ADD007F4E7A /* Assets.xcassets */; };
 		8377AA4321B85ADD007F4E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA4121B85ADD007F4E7A /* LaunchScreen.storyboard */; };
+		8377AA4B21B878AD007F4E7A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA4A21B878AD007F4E7A /* icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832C2DF621B9167E00528838 /* AnimalNoisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalNoisesViewController.swift; sourceTree = "<group>"; };
+		832C2DF821B917C400528838 /* SomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeData.swift; sourceTree = "<group>"; };
+		832C2DFA21B917F700528838 /* AnimalNoisesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalNoisesCell.swift; sourceTree = "<group>"; };
+		832C2E2B21B9560D00528838 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		832C2E2C21B9560D00528838 /* bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bird.wav; sourceTree = "<group>"; };
+		832C2E2D21B9560D00528838 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
+		832C2E2E21B9560D00528838 /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cow.wav; sourceTree = "<group>"; };
+		832C2E2F21B9560D00528838 /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chicken.wav; sourceTree = "<group>"; };
+		832C2E3521B961F600528838 /* InstrumentNoisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentNoisesViewController.swift; sourceTree = "<group>"; };
+		832C2E3721B9621500528838 /* WeatherNoisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNoisesViewController.swift; sourceTree = "<group>"; };
+		832C2E3921B9624B00528838 /* TransportNoisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportNoisesViewController.swift; sourceTree = "<group>"; };
+		832C2E3B21B9655E00528838 /* car.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = car.wav; sourceTree = "<group>"; };
+		832C2E3C21B9655F00528838 /* wind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wind.wav; sourceTree = "<group>"; };
+		832C2E3D21B9655F00528838 /* thunder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thunder.wav; sourceTree = "<group>"; };
+		832C2E3E21B9655F00528838 /* storm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = storm.wav; sourceTree = "<group>"; };
+		832C2E3F21B9655F00528838 /* motorcycle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = motorcycle.wav; sourceTree = "<group>"; };
+		832C2E4521B96ACF00528838 /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		832C2E4621B96ACF00528838 /* piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = piano.wav; sourceTree = "<group>"; };
+		832C2E4921B96DED00528838 /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
+		832C2E4A21B96DED00528838 /* pigeon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pigeon.wav; sourceTree = "<group>"; };
+		832C2E4B21B96DED00528838 /* monkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = monkey.wav; sourceTree = "<group>"; };
+		832C2E4D21B96DED00528838 /* frogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frogs.wav; sourceTree = "<group>"; };
+		832C2E4E21B96DEE00528838 /* trumpet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trumpet.wav; sourceTree = "<group>"; };
+		832C2E5521B96E7200528838 /* horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horse.wav; sourceTree = "<group>"; };
+		832C2E5721B96F1400528838 /* drum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum.wav; sourceTree = "<group>"; };
 		8377AA3521B85AD5007F4E7A /* Sound It!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound It!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8377AA3821B85AD5007F4E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8377AA3A21B85AD5007F4E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +73,7 @@
 		8377AA3F21B85ADD007F4E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8377AA4221B85ADD007F4E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8377AA4421B85ADD007F4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8377AA4A21B878AD007F4E7A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +87,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832C2E2A21B9560000528838 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				832C2E5521B96E7200528838 /* horse.wav */,
+				832C2E5721B96F1400528838 /* drum.wav */,
+				832C2E4921B96DED00528838 /* duck.wav */,
+				832C2E4D21B96DED00528838 /* frogs.wav */,
+				832C2E4B21B96DED00528838 /* monkey.wav */,
+				832C2E4A21B96DED00528838 /* pigeon.wav */,
+				832C2E4E21B96DEE00528838 /* trumpet.wav */,
+				832C2E4521B96ACF00528838 /* guitar.wav */,
+				832C2E4621B96ACF00528838 /* piano.wav */,
+				832C2E3B21B9655E00528838 /* car.wav */,
+				832C2E3F21B9655F00528838 /* motorcycle.wav */,
+				832C2E3E21B9655F00528838 /* storm.wav */,
+				832C2E3D21B9655F00528838 /* thunder.wav */,
+				832C2E3C21B9655F00528838 /* wind.wav */,
+				832C2E2C21B9560D00528838 /* bird.wav */,
+				832C2E2B21B9560D00528838 /* cat.wav */,
+				832C2E2F21B9560D00528838 /* chicken.wav */,
+				832C2E2E21B9560D00528838 /* cow.wav */,
+				832C2E2D21B9560D00528838 /* dog.wav */,
+			);
+			name = sounds;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		8377AA2C21B85AD5007F4E7A = {
 			isa = PBXGroup;
 			children = (
 				8377AA3721B85AD5007F4E7A /* Sound It! */,
 				8377AA3621B85AD5007F4E7A /* Products */,
+				8377AA4A21B878AD007F4E7A /* icons */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +137,16 @@
 				8377AA3821B85AD5007F4E7A /* AppDelegate.swift */,
 				8377AA3A21B85AD5007F4E7A /* ViewController.swift */,
 				8377AA3C21B85AD5007F4E7A /* Main.storyboard */,
+				832C2E3521B961F600528838 /* InstrumentNoisesViewController.swift */,
+				832C2E3721B9621500528838 /* WeatherNoisesViewController.swift */,
+				832C2E3921B9624B00528838 /* TransportNoisesViewController.swift */,
+				832C2DFA21B917F700528838 /* AnimalNoisesCell.swift */,
+				832C2DF821B917C400528838 /* SomeData.swift */,
+				832C2DF621B9167E00528838 /* AnimalNoisesViewController.swift */,
 				8377AA3F21B85ADD007F4E7A /* Assets.xcassets */,
 				8377AA4121B85ADD007F4E7A /* LaunchScreen.storyboard */,
 				8377AA4421B85ADD007F4E7A /* Info.plist */,
+				832C2E2A21B9560000528838 /* sounds */,
 			);
 			path = "Sound It!";
 			sourceTree = "<group>";
@@ -122,7 +209,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832C2E5021B96DEE00528838 /* pigeon.wav in Resources */,
+				832C2E4721B96ACF00528838 /* guitar.wav in Resources */,
+				832C2E3321B9560D00528838 /* cow.wav in Resources */,
+				832C2E5621B96E7200528838 /* horse.wav in Resources */,
+				832C2E4421B9655F00528838 /* motorcycle.wav in Resources */,
+				832C2E3121B9560D00528838 /* bird.wav in Resources */,
+				832C2E5121B96DEE00528838 /* monkey.wav in Resources */,
+				832C2E4121B9655F00528838 /* wind.wav in Resources */,
+				832C2E3421B9560D00528838 /* chicken.wav in Resources */,
+				832C2E5421B96DEE00528838 /* trumpet.wav in Resources */,
+				832C2E4321B9655F00528838 /* storm.wav in Resources */,
 				8377AA4321B85ADD007F4E7A /* LaunchScreen.storyboard in Resources */,
+				832C2E5821B96F1400528838 /* drum.wav in Resources */,
+				832C2E4221B9655F00528838 /* thunder.wav in Resources */,
+				832C2E4F21B96DEE00528838 /* duck.wav in Resources */,
+				8377AA4B21B878AD007F4E7A /* icons in Resources */,
+				832C2E4021B9655F00528838 /* car.wav in Resources */,
+				832C2E3021B9560D00528838 /* cat.wav in Resources */,
+				832C2E4821B96ACF00528838 /* piano.wav in Resources */,
+				832C2E5321B96DEE00528838 /* frogs.wav in Resources */,
+				832C2E3221B9560D00528838 /* dog.wav in Resources */,
 				8377AA4021B85ADD007F4E7A /* Assets.xcassets in Resources */,
 				8377AA3E21B85AD5007F4E7A /* Main.storyboard in Resources */,
 			);
@@ -135,8 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832C2E3821B9621500528838 /* WeatherNoisesViewController.swift in Sources */,
+				832C2E3621B961F600528838 /* InstrumentNoisesViewController.swift in Sources */,
 				8377AA3B21B85AD5007F4E7A /* ViewController.swift in Sources */,
+				832C2E3A21B9624B00528838 /* TransportNoisesViewController.swift in Sources */,
+				832C2DF721B9167E00528838 /* AnimalNoisesViewController.swift in Sources */,
 				8377AA3921B85AD5007F4E7A /* AppDelegate.swift in Sources */,
+				832C2DF921B917C400528838 /* SomeData.swift in Sources */,
+				832C2DFB21B917F700528838 /* AnimalNoisesCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
