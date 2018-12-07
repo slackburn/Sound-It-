@@ -15,9 +15,7 @@ class InstrumentNoisesViewController: UITableViewController {
     @IBAction func barBackButtonPressed(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-    
     var noises = SomeData.generateInstrumentsNoiseData() // retrieves data from class generateNoiseData from file SomeData
-    
 }
 
 extension InstrumentNoisesViewController {
