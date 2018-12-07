@@ -38,6 +38,7 @@
 		8377AA4021B85ADD007F4E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA3F21B85ADD007F4E7A /* Assets.xcassets */; };
 		8377AA4321B85ADD007F4E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA4121B85ADD007F4E7A /* LaunchScreen.storyboard */; };
 		8377AA4B21B878AD007F4E7A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 8377AA4A21B878AD007F4E7A /* icons */; };
+		D3AF7C8021BAC89500B05249 /* PeopleNoisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF7C7F21BAC89500B05249 /* PeopleNoisesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		8377AA4221B85ADD007F4E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8377AA4421B85ADD007F4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8377AA4A21B878AD007F4E7A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		D3AF7C7F21BAC89500B05249 /* PeopleNoisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleNoisesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				8377AA3A21B85AD5007F4E7A /* ViewController.swift */,
 				8377AA3C21B85AD5007F4E7A /* Main.storyboard */,
 				832C2E3521B961F600528838 /* InstrumentNoisesViewController.swift */,
+				D3AF7C7F21BAC89500B05249 /* PeopleNoisesViewController.swift */,
 				832C2E3721B9621500528838 /* WeatherNoisesViewController.swift */,
 				832C2E3921B9624B00528838 /* TransportNoisesViewController.swift */,
 				832C2DFA21B917F700528838 /* AnimalNoisesCell.swift */,
@@ -183,6 +186,7 @@
 				TargetAttributes = {
 					8377AA3421B85AD5007F4E7A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -244,6 +248,7 @@
 			files = (
 				832C2E3821B9621500528838 /* WeatherNoisesViewController.swift in Sources */,
 				832C2E3621B961F600528838 /* InstrumentNoisesViewController.swift in Sources */,
+				D3AF7C8021BAC89500B05249 /* PeopleNoisesViewController.swift in Sources */,
 				8377AA3B21B85AD5007F4E7A /* ViewController.swift in Sources */,
 				832C2E3A21B9624B00528838 /* TransportNoisesViewController.swift in Sources */,
 				832C2DF721B9167E00528838 /* AnimalNoisesViewController.swift in Sources */,
@@ -395,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sound It!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sam-blackburn.Sound-It-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sound It!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
