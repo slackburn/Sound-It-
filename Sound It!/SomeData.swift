@@ -51,7 +51,12 @@ final class SomeData {
     
     static func generatePeopleNoiseData() -> [Noises] { // retrieves variables from class Chocolate
         return [ // adds data to the table
-            Noises(noiseImg:"😂", sound:"dog")
+            Noises(noiseImg:"😂", sound:"dog"),
+            Noises(noiseImg:"😢", sound:"dog"),
+            Noises(noiseImg:"🥶", sound:"dog"),
+            Noises(noiseImg:"😡", sound:"dog"),
+            Noises(noiseImg:"🤧", sound:"dog"),
+            Noises(noiseImg:"👹", sound:"dog")
         ]
     }
 }
