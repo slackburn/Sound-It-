@@ -48,5 +48,4 @@ final class SomeData {
             Noises(noiseImg:"🌬", sound:"storm")
         ]
     }
-    
 }
