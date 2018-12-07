@@ -32,9 +32,7 @@ class AnimalNoisesCell: UITableViewCell {
     var noise: Noises? {
         didSet {
             guard let noise = noise else { return }
-            
             animalEmojiLbl.text = noise.noiseImg
-            
         }
     }
     
