@@ -48,4 +48,10 @@ final class SomeData {
             Noises(noiseImg:"🌬", sound:"storm")
         ]
     }
+    
+    static func generatePeopleNoiseData() -> [Noises] { // retrieves variables from class Chocolate
+        return [ // adds data to the table
+            Noises(noiseImg:"😂", sound:"dog")
+        ]
+    }
 }
