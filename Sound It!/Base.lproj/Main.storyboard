@@ -391,10 +391,10 @@
             </objects>
             <point key="canvasLocation" x="1987" y="516"/>
         </scene>
-        <!--Table View Controller-->
+        <!--People Noises View Controller-->
         <scene sceneID="SR1-ua-dcz">
             <objects>
-                <tableViewController id="E91-00-2CE" sceneMemberID="viewController">
+                <tableViewController id="E91-00-2CE" customClass="PeopleNoisesViewController" customModule="Sound_It_" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UNG-U7-CJI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
