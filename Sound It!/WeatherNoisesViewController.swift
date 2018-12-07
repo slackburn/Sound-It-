@@ -15,9 +15,7 @@ class WeatherNoisesViewController: UITableViewController {
     @IBAction func barBackButtonPressed(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-    
     var noises = SomeData.generateWeatherNoiseData() // retrieves data from class generateNoiseData from file SomeData
-    
 }
 
 extension WeatherNoisesViewController {
